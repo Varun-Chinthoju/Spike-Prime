@@ -11,9 +11,9 @@ time_prev = time.ticks_us() - 1
 integral = 0
 e_prev = 0
 
-Kp = 4.75
-Ki = 0.70
 Kd = 5.0
+Kp = 0.95*Kd
+Ki = 0.70
 
 linegraph.clear_all()
 
@@ -80,5 +80,5 @@ async def main():
     straight(200)
     straight(-200)
 
-    
+
 runloop.run(main())
