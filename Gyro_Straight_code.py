@@ -12,7 +12,7 @@ integral = 0
 e_prev = 0
 
 Kd = 5.0
-Kp = 0.95 * Kd
+Kp = 3.75
 Ki = 0.70
 
 linegraph.clear_all()
