@@ -11,9 +11,9 @@ time_prev = time.ticks_us() - 1
 integral = 0
 e_prev = 0
 
-Kd = 5.0
-Kp = 3.75
-Ki = 0.70
+Kp = 4.25
+Ki = 0.2
+Kd = 1.0
 
 linegraph.clear_all()
 
